@@ -6,10 +6,39 @@ h2.aboutme {
   text-align: center;
 }
 
+h3.bar {
+  text-align: center;
+  border-style: solid;
+  background-color: #92DDF3;
+}
+
+p {
+  font-size: 18px;
+}
+
+ol {
+  background-color: #92DDF3;
+  width: 14%;
+  border-style: solid;
+}
+
 h3.project {
   text-align: center;
 }
 
 body {
   background-image: url("../img/portland.jpg");
+}
+
+.col-md-2 {
+  border-style: solid;
+  background-color: #92DDF3;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.same {
+  width: 100px;
+  height: 100px;
+  float: left;
 }
