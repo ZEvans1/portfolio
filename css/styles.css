@@ -63,4 +63,14 @@ body {
 
 .spicy {
   color: red;
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.spicy img {
+  height: 30px;
+  width: 30px;
+  opacity: 0.8;
+  background: red;
 }
