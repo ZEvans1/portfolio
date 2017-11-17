@@ -16,6 +16,11 @@ p {
   font-size: 18px;
 }
 
+.col-md-2 p {
+  text-align: left;
+  font-style: italic;
+}
+
 ol {
   background-color: #92DDF3;
   width: 14%;
@@ -33,12 +38,6 @@ body {
 .col-md-2 {
   border-style: solid;
   background-color: #92DDF3;
-  padding-left: 10px;
-  margin-left: 10px;
-}
-
-.same {
-  width: 100px;
-  height: 100px;
-  float: left;
+  padding-left: 1px;
+  margin-left: 20px;
 }
