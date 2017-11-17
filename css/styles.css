@@ -1,24 +1,36 @@
 .topbanner {
   text-align: center;
+  color: #92611D;
 }
 
 h2.aboutme {
-  text-align: center;
+  text-align: left;
+}
+
+.col-md-6 ul{
+  color: white;
 }
 
 h3.bar {
   text-align: center;
   border-style: solid;
-  background-color: #92DDF3;
+  background-color: #92611D;
+  color: white;
+  border-color: black;
 }
 
 p {
   font-size: 18px;
+  color: white;
 }
 
 .col-md-2 p {
   text-align: left;
   font-style: italic;
+}
+
+a {
+  color: white;
 }
 
 ol {
@@ -32,12 +44,17 @@ h3.project {
 }
 
 body {
-  background-image: url("../img/portland.jpg");
+  background-image: url("../img/cap.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 100% 80%;
 }
 
 .col-md-2 {
   border-style: solid;
-  background-color: #92DDF3;
+  background-color: transparent;
   padding-left: 1px;
   margin-left: 20px;
 }
