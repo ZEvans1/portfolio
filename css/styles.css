@@ -1,0 +1,15 @@
+.topbanner {
+  text-align: center;
+}
+
+h2.aboutme {
+  text-align: center;
+}
+
+h3.project {
+  text-align: center;
+}
+
+body {
+  background-image: url("../img/portland.jpg");
+}
