@@ -5,6 +5,7 @@
 
 h2.aboutme {
   text-align: left;
+  color: white;
 }
 
 .col-md-6 ul{
@@ -17,6 +18,7 @@ h3.bar {
   background-color: #92611D;
   color: white;
   border-color: black;
+  opacity: 0.8;
 }
 
 p {
@@ -56,7 +58,7 @@ body {
   border-style: solid;
   background-color: transparent;
   padding-left: 1px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .spicy {
