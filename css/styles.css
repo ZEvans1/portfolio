@@ -1,6 +1,9 @@
-.topbanner {
+h1 {
   text-align: center;
-  color: #92611D;
+  color: #564017;
+  background-color: #FFDFA3;
+  width: 380px;
+  font-size: 26px;
 }
 
 .sidebar {
@@ -8,7 +11,7 @@
   background-color: transparent;
   margin: 0 auto;
   padding: 0 auto;
-  border-style: solid;
+  border-style: none;
   border-color: black;
   color: white;
 }
@@ -19,7 +22,14 @@ h2.aboutme {
 }
 
 .col-md-6 ul{
-  color: white;
+  background-color: #92611D;
+  opacity: 0.8;
+  color: #E4E4E6;
+}
+
+.col-md-6 p {
+  background-color: #92611D;
+  opacity: 0.8;
 }
 
 h3.bar {
@@ -33,16 +43,30 @@ h3.bar {
 
 p {
   font-size: 18px;
-  color: white;
+  color: #E4E4E6;
+}
+
+.int {
+  background-color: #92611D;
+  opacity: 0.8;
+}
+
+p.int {
+  width: 50%;
+  background-color: #564017;
 }
 
 .col-md-2 p {
   text-align: left;
   font-style: italic;
+  background-color: #564017;
+  opacity: 0.7;
 }
 
 .col-md-2 ul{
   color: white;
+  background-color: #564017;
+  opacity: 0.7;
 }
 
 a {
@@ -50,7 +74,9 @@ a {
 }
 
 h3.project {
-  text-align: center;
+  text-align: left;
+  background-color: #564017;
+  opacity: 0.7;
 }
 
 body {
@@ -63,7 +89,7 @@ body {
 }
 
 .col-md-2 {
-  border-style: solid;
+  border-style: none;
   background-color: transparent;
   padding-left: 1px;
   margin-left: 30px;
