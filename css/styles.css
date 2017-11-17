@@ -3,6 +3,16 @@
   color: #92611D;
 }
 
+.sidebar {
+  float: right;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-style: solid;
+  border-color: black;
+  color: white;
+}
+
 h2.aboutme {
   text-align: left;
   color: white;
@@ -31,14 +41,12 @@ p {
   font-style: italic;
 }
 
-a {
+.col-md-2 ul{
   color: white;
 }
 
-ol {
-  background-color: #92DDF3;
-  width: 14%;
-  border-style: solid;
+a {
+  color: white;
 }
 
 h3.project {
