@@ -1,6 +1,37 @@
-.topbanner {
+h1 {
   text-align: center;
-  color: #92611D;
+  color: #564017;
+  background-color: #FFDFA3;
+  width: 380px;
+  font-size: 26px;
+}
+
+.sidebar {
+  float: right;
+  background-color: transparent;
+  border-style: none;
+  border-color: black;
+  color: white;
+  padding-left: 0px;
+}
+
+ol {
+  font-size: 11pt;
+  padding-left: : 0px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1386px) {
+  ol{
+    font-size: 8pt;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 h2.aboutme {
@@ -9,7 +40,14 @@ h2.aboutme {
 }
 
 .col-md-6 ul{
-  color: white;
+  background-color: #92611D;
+  opacity: 0.8;
+  color: #E4E4E6;
+}
+
+.col-md-6 p {
+  background-color: #92611D;
+  opacity: 0.8;
 }
 
 h3.bar {
@@ -23,26 +61,40 @@ h3.bar {
 
 p {
   font-size: 18px;
-  color: white;
+  color: #E4E4E6;
+}
+
+.int {
+  background-color: #92611D;
+  opacity: 0.8;
+}
+
+p.int {
+  width: 50%;
+  background-color: #564017;
 }
 
 .col-md-2 p {
   text-align: left;
   font-style: italic;
+  background-color: #564017;
+  opacity: 0.7;
+}
+
+.col-md-2 ul{
+  color: white;
+  background-color: #564017;
+  opacity: 0.7;
 }
 
 a {
   color: white;
 }
 
-ol {
-  background-color: #92DDF3;
-  width: 14%;
-  border-style: solid;
-}
-
 h3.project {
-  text-align: center;
+  text-align: left;
+  background-color: #564017;
+  opacity: 0.7;
 }
 
 body {
@@ -55,7 +107,7 @@ body {
 }
 
 .col-md-2 {
-  border-style: solid;
+  border-style: none;
   background-color: transparent;
   padding-left: 1px;
   margin-left: 30px;
@@ -63,4 +115,14 @@ body {
 
 .spicy {
   color: red;
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.spicy img {
+  height: 30px;
+  width: 30px;
+  opacity: 0.8;
+  background: red;
 }
